@@ -12,7 +12,7 @@ This atlas prioritizes clarity and the **connections between ideas**. Each map i
 #### **1. The Modern AI Landscape**
 This mindmap covers the foundational pillars of AI, from Machine Learning paradigms to the principles of Responsible AI.
 
-[![A mindmap visualizing the core concepts of modern AI. Click to view the interactive version.](./mindmaps/ai_concepts_mindmap.png)](https://YourUsername.github.io/ai-concepts-atlas/mindmaps/ai_concepts_mindmap.html)
+[![A mindmap visualizing the core concepts of modern AI. Click to view the interactive version.](./mindmaps/ai_concepts_mindmap.png)](https://pr-rithwik.github.io/ai-concepts-atlas/mindmaps/ai_concepts_mindmap.html)
 <p align="center">
   <em>Click the image above to explore the full interactive mindmap.</em>
 </p>
@@ -20,7 +20,7 @@ This mindmap covers the foundational pillars of AI, from Machine Learning paradi
 #### **2. The Prompt Engineering Design Patterns**
 This mindmap visualizes a strategic framework for collaborating effectively with Large Language Models.
 
-[![A mindmap visualizing a framework for prompting design patterns. Click to view the interactive version.](./mindmaps/prompting_design_patterns_mindmap.png)](https://YourUsername.github.io/ai-concepts-atlas/mindmaps/prompting_design_patterns_mindmap.html)
+[![A mindmap visualizing a framework for prompting design patterns. Click to view the interactive version.](./mindmaps/prompting_design_patterns_mindmap.png)](https://pr-rithwik.github.io/ai-concepts-atlas/mindmaps/prompting_design_patterns_mindmap.html)
 <p align="center">
   <em>Click the image above to explore the full interactive mindmap.</em>
 </p>
