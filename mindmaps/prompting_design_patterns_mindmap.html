@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"Prompting Design Patterns","children":[{"content":"1. Framing &amp; Scoping Patterns","children":[{"content":"\n<h3 data-lines=\"3,4\"><strong>The Blueprint Pattern</strong></h3>","children":[{"content":"Goal-Oriented Prompting","children":[],"payload":{"tag":"li","lines":"4,5"}},{"content":"Describe the final destination, not just the next step.","children":[],"payload":{"tag":"li","lines":"5,6"}}],"payload":{"tag":"li","lines":"3,6"}},{"content":"\n<h3 data-lines=\"6,7\"><strong>The Layered Abstraction Pattern</strong></h3>","children":[{"content":"Move from &quot;Why&quot; (Strategy) to &quot;How&quot; (Tactics) to &quot;What&quot; (Details).","children":[],"payload":{"tag":"li","lines":"7,9"}}],"payload":{"tag":"li","lines":"6,9"}}],"payload":{"tag":"h2","lines":"2,3"}},{"content":"2. Optimization Patterns","children":[{"content":"\n<h3 data-lines=\"10,11\"><strong>The Prompt Optimizer Pattern</strong></h3>","children":[{"content":"Ask the AI to critique and improve your draft prompt before execution.","children":[],"payload":{"tag":"li","lines":"11,13"}}],"payload":{"tag":"li","lines":"10,13"}}],"payload":{"tag":"h2","lines":"9,10"}},{"content":"3. Instruction &amp; Context Patterns","children":[{"content":"\n<h3 data-lines=\"14,15\"><strong>The Persona Pattern</strong></h3>","children":[{"content":"Assign the AI a specific role and expertise.","children":[],"payload":{"tag":"li","lines":"15,16"}}],"payload":{"tag":"li","lines":"14,16"}},{"content":"\n<h3 data-lines=\"16,17\"><strong>The Few-Shot Pattern</strong></h3>","children":[{"content":"Provide 2-3 examples to show the desired output format.","children":[],"payload":{"tag":"li","lines":"17,18"}}],"payload":{"tag":"li","lines":"16,18"}},{"content":"\n<h3 data-lines=\"18,19\"><strong>The Chain of Thought (CoT) Pattern</strong></h3>","children":[{"content":"Instruct the model to &quot;think step-by-step.&quot;","children":[],"payload":{"tag":"li","lines":"19,21"}}],"payload":{"tag":"li","lines":"18,21"}}],"payload":{"tag":"h2","lines":"13,14"}},{"content":"4. Refinement &amp; Verification Patterns","children":[{"content":"\n<h3 data-lines=\"22,23\"><strong>The Self-Critique Pattern</strong></h3>","children":[{"content":"Ask the AI to review its own output against new criteria.","children":[],"payload":{"tag":"li","lines":"23,25"}}],"payload":{"tag":"li","lines":"22,25"}}],"payload":{"tag":"h2","lines":"21,22"}}],"payload":{"tag":"h1","lines":"0,1"}},null)</script>
+</body>
+</html>
